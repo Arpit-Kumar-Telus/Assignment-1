@@ -105,7 +105,7 @@ export const CardComponent = ({ product }) => {
         src={product.avatar}
         width="80px"
         height="300px"
-        className="curson-pointer"
+        className="p-3 curson-pointer"
         onClick={() => history.push(`/products/${product.id}`)}
       />
       <Card.Body className="d-flex flex-column justify-content-between">
